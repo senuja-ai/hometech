@@ -31,7 +31,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Sewwandi',
-    photo: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    photo: 'https://imgur.com/a/j7GHraS',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',
