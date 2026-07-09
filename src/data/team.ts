@@ -43,14 +43,14 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Anuhas',
-    photo: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    photo: 'https://i.postimg.cc/hGhQWnVZ/anuhasemployee.jpg',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',
     },
     bio: {
-      en: 'Anuhas is a skilled IT professional with a hands-on approach from computer hardware, to tech support. Certified in Windows tech support and programming, he has a talent for explaining complex tech in plain language.',
-      da: 'Anuhas er en dygtig IT-professionel med en praktisk tilgang til alt fra computerhardware til teknisk support. Han er certificeret i Windows teknisk support og programmering og har et talent for at forklare kompleks teknologi på et letforståeligt sprog.',
+      en: 'Anuhas is a disciplined IT professional with a strong work ethic and a passion for technology. He is always eager to take on new challenges and provides reliable technical support with a proactive approach and a commitment to getting the job done.',
+      da: 'Anuhas er en disciplineret IT-professionel med en stærk arbejdsmoral og en passion for teknologi. Han er altid ivrig efter at tage nye udfordringer op og leverer pålidelig teknisk support med en proaktiv tilgang og en forpligtelse til at få arbejdet gjort.',
     },
   },
   {
@@ -61,8 +61,8 @@ export const teamMembers: TeamMember[] = [
       da: 'support IT-tekniker',
     },
     bio: {
-      en: 'Selini is a skilled IT professional with a hands-on approach from computer hardware, to tech support. Certified in Windows tech support and programming, she has a talent for explaining complex tech in plain language.',
-      da: 'Selini er en dygtig IT-professionel med en praktisk tilgang til alt fra computerhardware til teknisk support. Hun er certificeret i Windows teknisk support og programmering og har et talent for at forklare kompleks teknologi på et letforståeligt sprog.',
+      en: 'Selini is a dedicated support technician with a patient and caring approach to helping customers solve technical issues. She is always ready to assist and has a talent for guiding users through challenges with clear explanations and a calm, friendly attitude.',
+      da: 'Selini er en dedikeret supporttekniker med en tålmodig og omsorgsfuld tilgang til at hjælpe kunder med at løse tekniske problemer. Hun er altid klar til at hjælpe og har et talent for at guide brugere gennem udfordringer med klare forklaringer og en rolig og venlig attitude.',
     },
   },
 ];
