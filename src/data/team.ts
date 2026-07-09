@@ -31,14 +31,14 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Sewwandi',
-    photo: 'https://imgur.com/a/j7GHraS',
+    photo: 'https://i.postimg.cc/HkDpzgLm/Amma-Employee.jpg',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',
     },
     bio: {
-      en: 'Sewwandi is a skilled IT professional with a hands-on approach from computer hardware, to tech support. Certified in Windows tech support and programming, she has a talent for explaining complex tech in plain language.',
-      da: 'Sewwandi er en dygtig IT-professionel med en praktisk tilgang til alt fra computerhardware til teknisk support. Hun er certificeret i Windows teknisk support og programmering og har et talent for at forklare kompleks teknologi på et letforståeligt sprog.',
+      en: 'Sewwandi is one of support technicians excelling in customer support and is very helpful. She is good at teaching our customers how to use interfaces.',
+      da: 'Sewwandi er en af ​​de supportteknikere, der udmærker sig inden for kundesupport, og hun er meget hjælpsom. Hun er god til at lære vores kunder, hvordan man bruger brugerflader.',
     },
   },
   {
