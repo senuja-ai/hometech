@@ -55,7 +55,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Selini',
-    photo: 'https://i.postimg.cc/8PzJZQZq/seliniemployee.jpg',
+    photo: 'https://i.postimg.cc/kgXd4Y23/seliniemployee.jpg',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',
