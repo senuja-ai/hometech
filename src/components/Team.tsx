@@ -59,12 +59,13 @@ export default function Team() {
               className="flex-shrink-0 w-72 bg-white rounded-2xl border border-steel-100 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
               style={{ scrollSnapAlign: 'start' }}
             >
+
               {/* Photo */}
-              <div className="h-56 overflow-hidden">
+              <div className="h-64 bg-steel-100 relative overflow-hidden flex items-end justify-center">
                 <img
                   src={member.photo}
                   alt={member.name}
-                  className="w-full h-full object-cover object-top"
+                  className="h-full object-contain object-bottom relative z-10"
                 />
               </div>
 
