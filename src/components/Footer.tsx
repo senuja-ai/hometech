@@ -69,9 +69,6 @@ export default function Footer() {
 
               <li>
                 <span className="flex items-start gap-2 text-steel-400">
-                  <span className="w-4 h-4 flex-shrink-0 text-white font-bold">
-                    CV
-                  </span>
                   <span>
                     CV number: 46623266
                   </span>
