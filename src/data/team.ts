@@ -19,7 +19,7 @@ export interface TeamMember {
 export const teamMembers: TeamMember[] = [
   {
     name: 'Senuja',
-    photo: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400',
+    photo: 'https://i.postimg.cc/NjKdX2ZJ/senuja-employyee.jpg',
     role: {
       en: 'Lead IT Technician',
       da: 'Ledende IT-tekniker',
@@ -31,7 +31,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Sewwandi',
-    photo: 'https://i.postimg.cc/HkDpzgLm/Amma-Employee.jpg',
+    photo: 'https://i.postimg.cc/W1d5Zqx9/ammaemployeenew.jpg',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',
