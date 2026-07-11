@@ -9,7 +9,7 @@ export const translations = {
       contact: 'Contact',
     },
     hero: {
-      badge: 'Available in the Amager area',
+      badge: 'Available Copenhagen-wide',
       heading1: 'IT help',
       heading2: 'at home',
       subheading: 'Home IT support that comes to',
@@ -31,7 +31,7 @@ export const translations = {
       heading: 'Who We Are',
       subtitle: 'Local, certified IT professionals — we make technology easy for everyone.',
       body: 'HomeTech Denmark was born out of a simple idea: everyone deserves reliable, friendly IT support at home. Based in Amager, we serve households across Dragør, Tårnby, and Copenhagen — showing up in person so you never have to struggle alone with a frustrating tech problem.',
-      body2: 'Whether you\'re 15 or 85, we take the time to explain everything clearly, fix it properly, and make sure you feel confident using your devices before we leave.',
+      body2: 'Whether you\'re 18 or 85, we take the time to explain everything clearly, fix it properly, and make sure you feel confident using your devices before we leave.',
       certifiedBadge: 'Certified & Trusted',
       certifiedText: 'Our technicians hold recognised IT certifications and keep their skills up to date. You\'re in safe hands — we treat your home and equipment with the same respect we\'d want for our own.',
       stats: [
@@ -151,7 +151,7 @@ export const translations = {
       contact: 'Kontakt',
     },
     hero: {
-      badge: 'Tilgængelig i Amagerområdet',
+      badge: 'tilgængelig i hele København',
       heading1: 'IT-hjælp',
       heading2: 'i hjemmet',
       subheading: 'IT-support der kommer til',
@@ -173,7 +173,7 @@ export const translations = {
       heading: 'Hvem er vi?',
       subtitle: 'Lokale, certificerede IT-fagfolk — vi gør teknologi let for alle.',
       body: 'HomeTech Denmark er opstået ud af en simpel idé: alle fortjener pålidelig og venlig IT-support derhjemme. Med base på Amager betjener vi husstande i Dragør, Tårnby og København — vi møder op i person, så du aldrig behøver at kæmpe alene med et frustrerende teknologiproblem.',
-      body2: 'Uanset om du er 15 eller 85 år, tager vi os tid til at forklare alt tydeligt, løse problemet ordentligt og sikre, at du er tryg ved at bruge dine enheder, inden vi tager af sted.',
+      body2: 'Uanset om du er 18 eller 85 år, tager vi os tid til at forklare alt tydeligt, løse problemet ordentligt og sikre, at du er tryg ved at bruge dine enheder, inden vi tager af sted.',
       certifiedBadge: 'Certificerede & Pålidelige',
       certifiedText: 'Vores teknikere har anerkendte IT-certificeringer og holder løbende deres kompetencer opdaterede. Du er i trygge hænder — vi behandler dit hjem og udstyr med samme respekt, som vi ønsker for vores eget.',
       stats: [
