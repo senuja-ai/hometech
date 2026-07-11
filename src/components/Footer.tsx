@@ -62,7 +62,7 @@ export default function Footer() {
                 <span className="flex items-start gap-2 text-steel-400">
                   <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                   <span>
-                    Address: Rotterdam Alle 32, 2791 Dragør, Denmark
+                    Rotterdam Alle 32, 2791 Dragør, Denmark
                   </span>
                 </span>
               </li>
