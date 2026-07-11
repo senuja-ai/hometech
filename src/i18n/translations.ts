@@ -151,7 +151,7 @@ export const translations = {
       contact: 'Kontakt',
     },
     hero: {
-      badge: 'tilgængelig i hele København',
+      badge: 'Tilgængelig i hele København',
       heading1: 'IT-hjælp',
       heading2: 'i hjemmet',
       subheading: 'IT-support der kommer til',
