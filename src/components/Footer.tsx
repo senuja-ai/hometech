@@ -58,6 +58,25 @@ export default function Footer() {
                   {f.areaLabel}
                 </span>
               </li>
+              <li>
+                <span className="flex items-start gap-2 text-steel-400">
+                  <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                  <span>
+                    Address: Rotterdam Alle 32, 2791 Dragør, Denmark
+                  </span>
+                </span>
+              </li>
+
+              <li>
+                <span className="flex items-start gap-2 text-steel-400">
+                  <span className="w-4 h-4 flex-shrink-0 text-white font-bold">
+                    CV
+                  </span>
+                  <span>
+                    CV number: 46623266
+                  </span>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
