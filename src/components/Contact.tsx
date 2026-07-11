@@ -134,7 +134,7 @@ export default function Contact() {
             </div>
 
             <a
-              href="https://www.facebook.com/YOUR_FACEBOOK_PAGE"
+              href="https://www.facebook.com/people/HomeTech-Denmark/61591429198875/"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-white rounded-2xl border border-steel-100 p-6 flex items-center gap-4 hover:shadow-md transition-shadow cursor-pointer"
