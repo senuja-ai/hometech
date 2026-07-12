@@ -56,7 +56,8 @@ export default function Navbar() {
 
   const navLinks = [
     { label: t.nav.about, href: '#about' },
-    { label: t.nav.services, href: '#services' },
+    { label: t.nav.ForHomes, href: '#for-homes' },
+    { label: t.nav.ForCompanies, href: '#for' },
     { label: t.nav.whyUs, href: '#why-us' },
     { label: t.nav.contact, href: '#contact' },
   ];

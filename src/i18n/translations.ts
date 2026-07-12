@@ -3,24 +3,25 @@ export type Lang = 'en' | 'da';
 export const translations = {
   en: {
     nav: {
-      services: 'Services',
+      ForHomes: 'For Homes',
+      ForCompanies: 'For Companies',
       whyUs: 'Why Us',
       about: 'About',
       contact: 'Contact',
     },
     hero: {
       badge: 'Available Copenhagen-wide',
-      heading1: 'IT help',
-      heading2: 'at home',
-      subheading: 'Home IT support that comes to',
-      subheadingYou: 'you',
-      tagline: 'Computer · Wi-Fi · Printer · Mobile Phone',
+      heading1: 'IT support',
+      heading2: 'for homes and businesses',
+      subheading: 'IT support that comes to you',
+      subheadingYou: '- accessible for all',
+      tagline: 'Troubleshooting · IT systems · Hardware upgrades · Customer Support',
       taglineSub: 'Personal & professional service',
       highlights: [
-        'We come to your home',
+        'We come to your doorstep',
         'Fast help at fair prices',
         'Friendly & patient service',
-        'Danish & English spoken',
+        'English spoken',
       ],
       cta1: '71 87 54 94',
       cta2: 'Contact us',
@@ -38,9 +39,37 @@ export const translations = {
         { value: '100%', label: 'Satisfaction goal' },
       ],
     },
-    services: {
-      badge: 'Services',
-      heading: 'What can we help with?',
+    ForHomes: {
+      badge: 'For Homes',
+      heading: 'How do we help your home?',
+      subtitle: 'From computers to smartphones – we handle it all at your home.',
+      bottomNote: "Not sure if we can help? Give us a call – we'll figure it out together.",
+      cards: [
+        {
+          title: 'Better Connectivity',
+          subtitle: 'Connecting your home',
+          items : ['Improve Wi-Fi Coverage','Resolve Slow or Unstable Internet','Home Network Optimisation','Router Installation & Configuration','Home Office Connectivity','Network Health Check'],
+        },
+        {
+          title: 'Device Maintenance',
+          subtitle: 'Caring for your devices',
+          items : ['Improve Computer Performance', 'New Computer & Device Setup', 'Data Transfer to New Devices', 'Software Installation & Updates', 'Printer & Peripheral Setup', 'Remote Technical Support'],
+        },
+        {
+          title: 'Digital Safety',
+          subtitle: 'Protecting your digital identity',
+          items: ['Device Security Health Check', 'Online Safety Check', 'Password & Account Protection', 'Scam Prevention Guidance', 'Backup & Recovery Planning', 'Privacy & Security Advice'],
+        },
+        {
+          title: 'Data recovery & Backup',
+          subtitle: 'Family-Photo Care',
+          items: ['Organize Photos & Videos', 'Cloud Storage & Backup Setup', 'Move Data to New Devices', 'Video Calling Setup', 'Technology Support', 'Family Digital Archive'],
+        },
+      ],
+    },
+    ForCompanies: {
+      badge: 'For Companies',
+      heading: 'How do we help your business?',
       subtitle: 'From computers to smartphones – we handle it all at your home.',
       bottomNote: "Not sure if we can help? Give us a call – we'll figure it out together.",
       cards: [
@@ -145,24 +174,25 @@ export const translations = {
 
   da: {
     nav: {
-      services: 'Tjenester',
+      ForHomes: 'Til Boliger',
+      ForCompanies: 'Til Virksomeheder',
       whyUs: 'Hvorfor os',
       about: 'Om os',
       contact: 'Kontakt',
     },
     hero: {
       badge: 'Tilgængelig i hele København',
-      heading1: 'IT-hjælp',
-      heading2: 'i hjemmet',
-      subheading: 'IT-support der kommer til',
-      subheadingYou: 'dig',
-      tagline: 'Computer · Wi-Fi · Printer · Mobiltelefon',
+      heading1: 'IT-support',
+      heading2: 'til hjem og virksomheder',
+      subheading: 'IT-support der kommer til dig',
+      subheadingYou: '- tilgængelig for alle',
+      tagline: 'Fejlfinding · IT-systemer · Hardwareopgraderinger · Kundesupport',
       taglineSub: 'Personlig og professionel service',
       highlights: [
-        'Vi kommer hjem til dig',
+        'Vi kommer hjem til din dør',
         'Hurtig hjælp · Rimelige priser',
         'Venlig og tålmodig service',
-        'Dansk og engelsk',
+        'Engelsk',
       ],
       cta1: '71 87 54 94',
       cta2: 'Kontakt os',
@@ -180,9 +210,37 @@ export const translations = {
         { value: '100%', label: 'Tilfredshedsmål' },
       ],
     },
-    services: {
-      badge: 'Tjenester',
-      heading: 'Hvad kan vi hjælpe med?',
+    ForHomes: {
+    badge: 'Til hjemmet',
+    heading: 'Hvordan hjælper vi dit hjem?',
+    subtitle: 'Fra computere til smartphones – vi klarer det hele i dit hjem.',
+    bottomNote: "Er du ikke sikker på, om vi kan hjælpe? Ring til os – så finder vi ud af det sammen.",
+    cards: [
+    {
+    title: 'Bedre internetforbindelse',
+    subtitle: 'Forbindelse til dit hjem',
+    items: ['Forbedring af Wi-Fi-dækning', 'Løsning af langsomt eller ustabilt internet', 'Optimering af hjemmenetværk', 'Installation og opsætning af router', 'Forbindelse til hjemmekontor', 'Tjek af netværkets tilstand'],
+    },
+    {
+    title: 'Enhedsvedligeholdelse',
+    subtitle: 'Pleje af dine enheder',
+    items: ['Forbedring af computerens ydeevne', 'Opsætning af ny computer og enhed', 'Dataoverførsel til nye enheder', 'Installation og opdatering af software', 'Opsætning af printer og tilbehør', 'Fjernsupport'],
+    },
+    {
+    title: 'Digital sikkerhed',
+    subtitle: 'Beskyttelse af din digitale identitet',
+    items: ['Sikkerhedstjek af enhed', 'Online sikkerhedstjek', 'Beskyttelse af adgangskoder og konti', 'Vejledning i svindelforebyggelse', 'Planlægning af backup og genoprettelse', 'Rådgivning om privatliv og sikkerhed'],
+    },
+    {
+    title: 'Datagenoprettelse & Backup',
+    subtitle: 'Pleje af familiebilleder',
+    items: ['Organisering af billeder og videoer', 'Opsætning af cloud-lagring og backup', 'Flytning af data til nye enheder', 'Opsætning af videoopkald', 'Teknologisk support', 'Digitalt familiearkiv'],
+    },
+    ],
+    },
+    ForCompanies: {
+      badge: 'Til Virksomheder',
+      heading: 'Hvordan hjælper vi din virksomhed?',
       subtitle: 'Fra computere til smartphones – vi klarer det hele hjemme hos dig.',
       bottomNote: 'Ikke sikker på om vi kan hjælpe? Ring til os – vi finder ud af det sammen.',
       cards: [

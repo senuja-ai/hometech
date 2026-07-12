@@ -92,13 +92,13 @@ export default function Hero() {
       </div>
 
       {/* Hero photo */}
-      <div className="hidden lg:block absolute right-0 top-0 bottom-0 w-2/5">
+      <div className="hidden lg:block object-center bg-steel-900 overflow-hidden">
         <img
-          src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800"
+          src="https://i.postimg.cc/XqxsQ3kg/pexels-gokceerem-38485579.jpg"
           alt="IT support technician"
-          className="w-full h-full object-cover opacity-20"
+          className="absolute inset-0 w-full object-contain object-center opacity-10"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-steel-900 via-steel-900/60 to-transparent" />
+        <div className="" />
       </div>
     </section>
   );

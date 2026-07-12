@@ -40,7 +40,7 @@ export default function WhyUs() {
         {/* Image banner */}
         <div className="mt-16 rounded-2xl overflow-hidden relative h-48 sm:h-64">
           <img
-            src="https://images.pexels.com/photos/5473337/pexels-photo-5473337.jpeg?auto=compress&cs=tinysrgb&w=1200"
+            src="https://i.postimg.cc/XqxsQ3kg/pexels-gokceerem-38485579.jpg"
             alt="Friendly IT technician helping a customer"
             className="w-full h-full object-cover"
           />
