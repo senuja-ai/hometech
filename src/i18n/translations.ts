@@ -43,7 +43,7 @@ export const translations = {
       badge: 'For Homes',
       heading: 'How do we help your home?',
       subtitle: 'From personal computers to smart home devices',
-      bottomNote: "Not sure if we can help ? Give us a call – we'll figure it out together.",
+      bottomNote: "Not sure if we can help with your home? Give us a call – we'll figure it out together.",
       cards: [
         {
           title: 'Device Maintenance',
@@ -71,7 +71,7 @@ export const translations = {
       badge: 'For Companies',
       heading: 'How do we help your business?',
       subtitle: 'From servers to office systems',
-      bottomNote: "Not sure if we can help? Give us a call – we'll figure it out together.",
+      bottomNote: "Not sure if we can help your business? Give us a call – we'll figure it out together.",
       cards: [
         {
           title: 'Automation and Optimization',
@@ -214,7 +214,7 @@ export const translations = {
     badge: 'Til hjemmet',
     heading: 'Hvordan hjælper vi dit hjem?',
     subtitle: 'Fra personlige computere til smarte hjemmeenhederFra personlige computere til smarte hjemmeenheder',
-    bottomNote: "Er du ikke sikker på, om vi kan hjælpe? Ring til os – så finder vi ud af det sammen.",
+    bottomNote: "Er du ikke sikker på, om vi kan hjælpe med dit hjem? Ring til os – så finder vi ud af det sammen.",
     cards: [
     {
     title: 'Enhedsvedligeholdelse',
@@ -242,7 +242,7 @@ export const translations = {
     badge: 'Til virksomheder',
     heading: 'Hvordan hjælper vi din virksomhed?',
     subtitle: 'Fra servere til kontorsystemer',
-    bottomNote: "Er du ikke sikker på, om vi kan hjælpe? Ring til os – så finder vi ud af det sammen.",
+    bottomNote: "Er du ikke sikker på, om vi kan hjælpe med din virksomhed? Ring til os – så finder vi ud af det sammen.",
     cards: [
     {
     title: 'Automatisering og optimering',

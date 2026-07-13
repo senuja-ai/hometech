@@ -1,7 +1,7 @@
-import { Monitor, Wifi, Printer, Smartphone } from 'lucide-react';
+import { MonitorCheck, Router, ShieldPlus, HardDriveUpload } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-const icons = [Monitor, Wifi, Printer, Smartphone];
+const icons = [MonitorCheck, Router, ShieldPlus, HardDriveUpload];
 
 export default function ForHomes() {
   const { t } = useLanguage();
@@ -27,7 +27,7 @@ export default function ForHomes() {
         {/* Service cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {cardsList.map((card: any, idx: number) => {
-            const Icon = icons[idx] || Monitor;
+            const Icon = icons[idx];
             // Safe fallback lookup using any to bypass strict tuple checking entirely
             const itemsList = card?.items || [];
 

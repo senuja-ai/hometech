@@ -1,8 +1,7 @@
-import { Monitor, Wifi, Printer, Smartphone } from 'lucide-react';
+import { Network, GraduationCap, Server, Workflow } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
-const icons = [Monitor, Wifi, Printer, Smartphone];
-
+const icons = [Workflow, Network, GraduationCap, Server];
 export default function ForCompanies() {
   const { t } = useLanguage();
   // Cast the entire section to 'any' right away so TypeScript stops inspecting its children strictly
@@ -27,7 +26,7 @@ export default function ForCompanies() {
         {/* Service cards */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {cardsList.map((card: any, idx: number) => {
-            const Icon = icons[idx] || Monitor;
+            const Icon = icons[idx];
             // Safe fallback lookup using any to bypass strict tuple checking entirely
             const itemsList = card?.items || [];
 
