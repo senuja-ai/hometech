@@ -42,18 +42,18 @@ export const translations = {
     ForHomes: {
       badge: 'For Homes',
       heading: 'How do we help your home?',
-      subtitle: 'From computers to smartphones – we handle it all at your home.',
-      bottomNote: "Not sure if we can help? Give us a call – we'll figure it out together.",
+      subtitle: 'From personal computers to smart home devices',
+      bottomNote: "Not sure if we can help ? Give us a call – we'll figure it out together.",
       cards: [
-        {
-          title: 'Better Connectivity',
-          subtitle: 'Connecting your home',
-          items : ['Improve Wi-Fi Coverage','Resolve Slow or Unstable Internet','Home Network Optimisation','Router Installation & Configuration','Home Office Connectivity','Network Health Check'],
-        },
         {
           title: 'Device Maintenance',
           subtitle: 'Caring for your devices',
           items : ['Improve Computer Performance', 'New Computer & Device Setup', 'Data Transfer to New Devices', 'Software Installation & Updates', 'Printer & Peripheral Setup', 'Remote Technical Support'],
+        },        
+        {
+          title: 'Better Connectivity',
+          subtitle: 'Connecting your home',
+          items : ['Improve Wi-Fi Coverage','Resolve Slow or Unstable Internet','Home Network Optimisation','Router Installation & Configuration','Home Office Connectivity','Network Health Check'],
         },
         {
           title: 'Digital Safety',
@@ -70,28 +70,28 @@ export const translations = {
     ForCompanies: {
       badge: 'For Companies',
       heading: 'How do we help your business?',
-      subtitle: 'From computers to smartphones – we handle it all at your home.',
+      subtitle: 'From servers to office systems',
       bottomNote: "Not sure if we can help? Give us a call – we'll figure it out together.",
       cards: [
         {
-          title: 'Computer',
-          subtitle: 'PC & Laptop Support',
-          items: ['Repair', 'Troubleshooting', 'Speed up your PC', 'Virus removal', 'Windows help'],
+          title: 'Automation and Optimization',
+          subtitle: 'Automate tasks and optimize workflows',
+          items: ['Workflow Automation', 'AI Business Solutions', 'Business Process Optimisation', 'Custom Business Applications', 'Dashboards & Reporting', 'System Integration'],
         },
         {
-          title: 'Wi-Fi & Internet',
-          subtitle: 'Network & Connectivity',
-          items: ['Setup', 'Troubleshooting', 'Router help', 'Remote support'],
+          title: 'Company Network Support',
+          subtitle: 'Support the digital backbone of your business',
+          items: ['Business Network Design & Upgrades', 'Improve Network Performance', 'Secure Business Networks', 'Business Wi-Fi Solutions', 'Secure Remote Access (VPN)', 'Network Health Assessments'],
         },
         {
-          title: 'Printer & E-mail',
-          subtitle: 'Peripherals & Communication',
-          items: ['Setup', 'Scanner', 'E-mail', 'Passwords', 'Applications'],
+          title: 'Staff Technical Training',
+          subtitle: 'Helping businesses build stronger IT teams',
+          items: ['Enterprise Network Engineering', 'Network Troubleshooting Workshops', 'Python & Network Automation', 'AI for IT Teams', 'Technical Mentoring', 'Knowledge Transfer'],
         },
         {
-          title: 'Phone & TV',
-          subtitle: 'Mobile, Smart TV & Streaming',
-          items: ['iPhone & Android', 'Smart TV', 'Streaming', 'Photos & Backup', 'Video calls'],
+          title: 'Data Center Remote-hands Support',
+          subtitle: 'Have a swift team ready to fulfill your data center needs',
+          items: ['Rack & Stack Services', 'Equipment Installation & Decommissioning', 'Hardware Replacement (RMA)', 'Console Access & Remote Engineering Support', 'Optical Power & Link Verification', 'Smart Hands & Emergency Support'],
         },
       ],
     },
@@ -213,18 +213,18 @@ export const translations = {
     ForHomes: {
     badge: 'Til hjemmet',
     heading: 'Hvordan hjælper vi dit hjem?',
-    subtitle: 'Fra computere til smartphones – vi klarer det hele i dit hjem.',
+    subtitle: 'Fra personlige computere til smarte hjemmeenhederFra personlige computere til smarte hjemmeenheder',
     bottomNote: "Er du ikke sikker på, om vi kan hjælpe? Ring til os – så finder vi ud af det sammen.",
     cards: [
-    {
-    title: 'Bedre internetforbindelse',
-    subtitle: 'Forbindelse til dit hjem',
-    items: ['Forbedring af Wi-Fi-dækning', 'Løsning af langsomt eller ustabilt internet', 'Optimering af hjemmenetværk', 'Installation og opsætning af router', 'Forbindelse til hjemmekontor', 'Tjek af netværkets tilstand'],
-    },
     {
     title: 'Enhedsvedligeholdelse',
     subtitle: 'Pleje af dine enheder',
     items: ['Forbedring af computerens ydeevne', 'Opsætning af ny computer og enhed', 'Dataoverførsel til nye enheder', 'Installation og opdatering af software', 'Opsætning af printer og tilbehør', 'Fjernsupport'],
+    },
+    {
+    title: 'Bedre internetforbindelse',
+    subtitle: 'Forbindelse til dit hjem',
+    items: ['Forbedring af Wi-Fi-dækning', 'Løsning af langsomt eller ustabilt internet', 'Optimering af hjemmenetværk', 'Installation og opsætning af router', 'Forbindelse til hjemmekontor', 'Tjek af netværkets tilstand'],
     },
     {
     title: 'Digital sikkerhed',
@@ -235,34 +235,34 @@ export const translations = {
     title: 'Datagenoprettelse & Backup',
     subtitle: 'Pleje af familiebilleder',
     items: ['Organisering af billeder og videoer', 'Opsætning af cloud-lagring og backup', 'Flytning af data til nye enheder', 'Opsætning af videoopkald', 'Teknologisk support', 'Digitalt familiearkiv'],
-    },
-    ],
+        },
+      ],
     },
     ForCompanies: {
-      badge: 'Til Virksomheder',
-      heading: 'Hvordan hjælper vi din virksomhed?',
-      subtitle: 'Fra computere til smartphones – vi klarer det hele hjemme hos dig.',
-      bottomNote: 'Ikke sikker på om vi kan hjælpe? Ring til os – vi finder ud af det sammen.',
-      cards: [
-        {
-          title: 'Computer',
-          subtitle: 'PC & Laptop Support',
-          items: ['Reparation', 'Fejlfinding', 'Hurtigere PC', 'Virusfjernelse', 'Windows'],
-        },
-        {
-          title: 'Wi-Fi & Internet',
-          subtitle: 'Netværk & Forbindelser',
-          items: ['Opsætning', 'Fejlfinding', 'Router-hjælp', 'Fjernsupport'],
-        },
-        {
-          title: 'Printer & E-mail',
-          subtitle: 'Udstyr & Kommunikation',
-          items: ['Opsætning', 'Scanner', 'E-mail', 'Adgangskoder', 'Programmer'],
-        },
-        {
-          title: 'Telefon & TV',
-          subtitle: 'Mobil, Smart TV & Streaming',
-          items: ['iPhone & Android', 'Smart TV', 'Streaming', 'Billeder & Backup', 'Videoopkald'],
+    badge: 'Til virksomheder',
+    heading: 'Hvordan hjælper vi din virksomhed?',
+    subtitle: 'Fra servere til kontorsystemer',
+    bottomNote: "Er du ikke sikker på, om vi kan hjælpe? Ring til os – så finder vi ud af det sammen.",
+    cards: [
+    {
+    title: 'Automatisering og optimering',
+    subtitle: 'Automatiser opgaver og optimer arbejdsgange',
+    items: ['Automatisering af arbejdsgange', 'AI-forretningsløsninger', 'Optimering af forretningsprocesser', 'Skræddersyede forretningsapplikationer', 'Dashboards og rapportering', 'Systemintegration'],
+    },
+    {
+    title: 'Netværkssupport til virksomheder',
+    subtitle: 'Support til den digitale rygrad i din virksomhed',
+    items: ['Design og opgradering af virksomhedsnetværk', 'Forbedring af netværksydeevne', 'Sikre virksomhedsnetværk', 'Wi-Fi-løsninger til erhverv', 'Sikker fjernadgang (VPN)', 'Sundhedstjek af netværk'],
+    },
+    {
+    title: 'Teknisk træning af medarbejdere',
+    subtitle: 'Hjælp til virksomheder med at opbygge stærkere IT-teams',
+    items: ['Netværksingeniørarbejde for virksomheder', 'Workshops i fejlfinding på netværk', 'Python og netværksautomatisering', 'AI til IT-teams', 'Teknisk mentorskab', 'Vidensdeling'],
+    },
+    {
+    title: 'Remote-hands support til datacentre',
+    subtitle: 'Hav et hurtigt team klar til at opfylde dine datacenterbehov',
+    items: ['Rack & Stack-tjenester', 'Installation og nedlukning af udstyr', 'Udskiftning af hardware (RMA)', 'Konsoladgang og teknisk fjernsupport', 'Verificering af optisk effekt og link', 'Smart Hands & nødsupport'],
         },
       ],
     },
