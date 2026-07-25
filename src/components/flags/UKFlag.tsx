@@ -1,6 +1,6 @@
 export default function UKFlag({ className = 'w-5 h-4' }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 60 40" xmlns="http://www.w3.org/2000/svg" aria-label="UK flag">
+    <svg className={className} viewBox="0 0 60 40" xmlns="https://www.w3.org/2000/svg" aria-label="UK flag">
       <rect width="60" height="40" fill="#012169" rx="2" />
       {/* White diagonals */}
       <line x1="0" y1="0" x2="60" y2="40" stroke="white" strokeWidth="10" />
