@@ -100,6 +100,16 @@ export default function Contact() {
                   </div>
                 </a>
 
+                <a href="mailto:support@ithjem.dk" className="flex items-center gap-4 group">
+                  <div className="w-11 h-11 bg-steel-700 group-hover:bg-mint-500 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                    <Mail className="w-5 h-5 text-white" />
+                  </div>
+                  <div>
+                    <p className="text-steel-400 text-xs uppercase tracking-wide">{c.info.emailLabel}</p>
+                    <p className="text-white font-semibold break-all">support@ithjem.dk</p>
+                  </div>
+                </a>
+
                 <a
                   href="https://wa.me/4571875494"
                   target="_blank"
