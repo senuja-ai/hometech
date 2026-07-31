@@ -5,6 +5,7 @@ export const translations = {
     nav: {
       ForHomes: 'For Homes',
       ForCompanies: 'For Companies',
+      Prices: 'Prices',
       whyUs: 'Why Us',
       about: 'About',
       contact: 'Contact',
@@ -128,6 +129,118 @@ export const translations = {
         },
       ],
     },
+    pricing: {
+      badge: 'Pricing',
+      heading: 'Simple and transparent pricing',
+      subtitle:
+        'Clear prices before we begin. No hidden fees or unexpected charges.',
+
+      plans: [
+        {
+          id: 'first-hour',
+          title: 'First hour',
+          subtitle: 'Home IT support at your doorstep',
+          price: '499',
+          priceSuffix: 'DKK',
+          oldPrice: '',
+          badge: 'Standard visit',
+          icon: 'home',
+          featured: true,
+          enabled: true,
+
+          features: [
+            'Up to 60 minutes of IT support',
+            'Travel within our normal service area included',
+            'Help with computers, Wi-Fi, printers and devices',
+            'The price is explained before work begins',
+          ],
+
+          buttonText: 'Book home support',
+          buttonHref: '#contact',
+          note:
+            'Parts, equipment and parking fees are not included unless agreed in advance.',
+        },
+
+        {
+          id: 'additional-hour',
+          title: 'Additional time',
+          subtitle: 'When more than one hour is needed',
+          price: '499',
+          priceSuffix: 'DKK per hour',
+          oldPrice: '',
+          badge: '',
+          icon: 'clock',
+          featured: false,
+          enabled: true,
+
+          features: [
+            'Only continues with your approval',
+            'No automatic additional charges',
+            'You can stop the visit at any time',
+            'Charged according to the additional time used',
+          ],
+
+          buttonText: 'Contact us',
+          buttonHref: '#contact',
+          note:
+            'We will tell you before the first hour ends if additional time may be needed.',
+        },
+
+        {
+          id: 'remote-support',
+          title: 'Remote support',
+          subtitle: 'Help without an on-site visit',
+          price: 'Contact us',
+          priceSuffix: '',
+          oldPrice: '',
+          badge: '',
+          icon: 'remote',
+          featured: false,
+          enabled: false,
+
+          features: [
+            'Support by phone or secure remote connection',
+            'Suitable for software and account problems',
+            'No travel required',
+            'Price agreed before support begins',
+          ],
+
+          buttonText: 'Ask about remote support',
+          buttonHref: '#contact',
+          note: '',
+        },
+
+        {
+          id: 'business-support',
+          title: 'Business IT support',
+          subtitle: 'Flexible support for companies',
+          price: 'Custom quote',
+          priceSuffix: '',
+          oldPrice: '',
+          badge: '',
+          icon: 'business',
+          featured: false,
+          enabled: true,
+
+          features: [
+            'Network and infrastructure troubleshooting',
+            'Remote and on-site technical support',
+            'Data-centre remote-hands services',
+            'Scope and price agreed before work begins',
+          ],
+
+          buttonText: 'Request a quote',
+          buttonHref: '#contact',
+          note:
+            'Business pricing depends on the work, location and required response time.',
+        },
+      ],
+
+      bottomNote:
+        'All prices include VAT unless otherwise stated. Special travel, parts and equipment are agreed separately.',
+
+      phoneText: 'Questions about pricing? Call 71 87 54 94',
+    },
     contact: {
       badge: 'Contact',
       heading: 'Get in touch',
@@ -175,7 +288,8 @@ export const translations = {
   da: {
     nav: {
       ForHomes: 'Til Boliger',
-      ForCompanies: 'Til Virksomeheder',
+      ForCompanies: 'Til Virksomheder',
+      prices: 'Priser',
       whyUs: 'Hvorfor os',
       about: 'Om os',
       contact: 'Kontakt',
@@ -298,6 +412,118 @@ export const translations = {
           desc: 'Lokal, pålidelig og dedikeret til at give dig den bedste oplevelse.',
         },
       ],
+    },
+    pricing: {
+      badge: 'Priser',
+      heading: 'Enkle og gennemskuelige priser',
+      subtitle:
+        'Du kender prisen, før vi begynder. Ingen skjulte gebyrer eller uventede udgifter.',
+
+      plans: [
+        {
+          id: 'first-hour',
+          title: 'Første time',
+          subtitle: 'IT-support hjemme hos dig',
+          price: '499',
+          priceSuffix: 'kr.',
+          oldPrice: '',
+          badge: 'Standardbesøg',
+          icon: 'home',
+          featured: true,
+          enabled: true,
+
+          features: [
+            'Op til 60 minutters IT-support',
+            'Transport i vores normale serviceområde inkluderet',
+            'Hjælp til computer, Wi-Fi, printer og andre enheder',
+            'Prisen forklares, før arbejdet begynder',
+          ],
+
+          buttonText: 'Bestil hjemmehjælp',
+          buttonHref: '#contact',
+          note:
+            'Reservedele, udstyr og parkeringsudgifter er ikke inkluderet, medmindre andet aftales på forhånd.',
+        },
+
+        {
+          id: 'additional-hour',
+          title: 'Ekstra tid',
+          subtitle: 'Når der er brug for mere end én time',
+          price: '499',
+          priceSuffix: 'kr. pr. time',
+          oldPrice: '',
+          badge: '',
+          icon: 'clock',
+          featured: false,
+          enabled: true,
+
+          features: [
+            'Vi fortsætter kun efter din godkendelse',
+            'Ingen automatiske ekstra gebyrer',
+            'Du kan stoppe besøget når som helst',
+            'Du betaler efter den ekstra tid, der bruges',
+          ],
+
+          buttonText: 'Kontakt os',
+          buttonHref: '#contact',
+          note:
+            'Vi fortæller dig inden udgangen af den første time, hvis der kan blive brug for ekstra tid.',
+        },
+
+        {
+          id: 'remote-support',
+          title: 'Fjernsupport',
+          subtitle: 'Hjælp uden et hjemmebesøg',
+          price: 'Kontakt os',
+          priceSuffix: '',
+          oldPrice: '',
+          badge: '',
+          icon: 'remote',
+          featured: false,
+          enabled: false,
+
+          features: [
+            'Support via telefon eller sikker fjernforbindelse',
+            'Velegnet til software- og kontoproblemer',
+            'Ingen transport nødvendig',
+            'Prisen aftales, før supporten begynder',
+          ],
+
+          buttonText: 'Spørg om fjernsupport',
+          buttonHref: '#contact',
+          note: '',
+        },
+
+        {
+          id: 'business-support',
+          title: 'IT-support til virksomheder',
+          subtitle: 'Fleksibel support til virksomheder',
+          price: 'Indhent tilbud',
+          priceSuffix: '',
+          oldPrice: '',
+          badge: '',
+          icon: 'business',
+          featured: false,
+          enabled: true,
+
+          features: [
+            'Fejlfinding på netværk og infrastruktur',
+            'Teknisk fjernsupport og support på stedet',
+            'Remote-hands service i datacentre',
+            'Omfang og pris aftales, før arbejdet begynder',
+          ],
+
+          buttonText: 'Få et tilbud',
+          buttonHref: '#contact',
+          note:
+            'Prisen for virksomheder afhænger af opgaven, placeringen og den ønskede responstid.',
+        },
+      ],
+
+      bottomNote:
+        'Alle priser er inklusive moms, medmindre andet er angivet. Særlig transport, reservedele og udstyr aftales separat.',
+
+      phoneText: 'Har du spørgsmål om priser? Ring på 71 87 54 94',
     },
     contact: {
       badge: 'Kontakt',

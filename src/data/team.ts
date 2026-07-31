@@ -43,7 +43,7 @@ export const teamMembers: TeamMember[] = [
   },
   {
     name: 'Anuhas',
-    photo: 'https://i.postimg.cc/RFmkJYt2/anuhasemployee.jpg',
+    photo: 'https://i.postimg.cc/hGhQWnVZ/anuhasemployee.jpg',
     role: {
       en: 'support IT Technician',
       da: 'support IT-tekniker',

@@ -10,7 +10,7 @@ export default function ForCompanies() {
   const cardsList = s?.cards || [];
 
   return (
-    <section id="ForCompanies" className="section-pad bg-white">
+    <section id="For-Companies" className="section-pad bg-white">
       <div className="container-max">
         {/* Section header */}
         <div className="text-center mb-14">

@@ -11,7 +11,7 @@ export default function ForHomes() {
   const cardsList = s?.cards || [];
 
   return (
-    <section id="ForHomes" className="section-pad bg-steel-50">
+    <section id="For-Homes" className="section-pad bg-steel-50">
       <div className="container-max">
         {/* Section header */}
         <div className="text-center mb-14">
