@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import ForHomes from './components/ForHomes';
 import ForCompanies from './components/ForCompanies';
+import AISolutions from './components/AISolutions';
 import Team from './components/Team';
 import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
@@ -20,6 +21,7 @@ export default function App() {
           <About />
           <ForHomes />
           <ForCompanies />
+          <AISolutions />
           <Team />
           <WhyUs />
           <Contact />

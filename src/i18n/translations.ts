@@ -5,6 +5,7 @@ export const translations = {
     nav: {
       ForHomes: 'For Homes',
       ForCompanies: 'For Companies',
+      aiSolutions: 'AI Solutions',
       Prices: 'Prices',
       whyUs: 'Why Us',
       about: 'About',
@@ -93,6 +94,39 @@ export const translations = {
           title: 'Data Center Remote-hands Support',
           subtitle: 'Have a swift team ready to fulfill your data center needs',
           items: ['Rack & Stack Services', 'Equipment Installation & Decommissioning', 'Hardware Replacement (RMA)', 'Console Access & Remote Engineering Support', 'Optical Power & Link Verification', 'Smart Hands & Emergency Support'],
+        },
+      ],
+    },
+    AISolutions: {
+      badge: 'AI Solutions',
+      heading: 'Put AI to work for your business',
+      subtitle: 'From autonomous agents to private, cost-efficient AI – built around your needs',
+      bottomNote: "Not sure where AI fits in your business? Give us a call – we'll map it out together.",
+      cards: [
+        {
+          title: 'AI Agents',
+          subtitle: 'AI that takes action – not just answers',
+          items: ['Agentic AI Workflows', 'Multi-Step Task Automation', 'Agents Connected to Your Tools & Data', 'Customer & Internal Service Agents', 'Human-in-the-Loop Controls', 'Monitoring & Maintenance'],
+        },
+        {
+          title: 'AI for Developers',
+          subtitle: 'AI tools inside your code editor',
+          items: ['AI Coding Assistants & Extensions', 'Setup for VS Code, JetBrains & More', 'Custom Editor Add-ons', 'Secure Team-Wide Rollout', 'Best-Practice AI Coding Workflows', 'Developer Training'],
+        },
+        {
+          title: 'Local & Private AI',
+          subtitle: 'Run language models on your own hardware',
+          items: ['On-Premise LLM Deployment', 'Keep Sensitive Data In-House', 'GDPR-Friendly AI Setups', 'Hardware Sizing & Setup', 'Private Chat & Document Search', 'Offline-Capable AI'],
+        },
+        {
+          title: 'AI for Business Optimisation',
+          subtitle: 'Work smarter across your organisation',
+          items: ['AI Opportunity Assessment', 'Process Streamlining with AI', 'Document & Data Processing', 'Reporting & Insights', 'Integration with Existing Systems', 'Staff AI Training'],
+        },
+        {
+          title: 'AI Cost Optimisation',
+          subtitle: 'Get more value from your current AI spend',
+          items: ['Review of Existing AI Architecture', 'Token & API Usage Analysis', 'Right-Sized Models for Each Task', 'Caching & Efficiency Improvements', 'Cloud vs. Local Cost Comparison', 'Ongoing Cost Monitoring'],
         },
       ],
     },
@@ -289,6 +323,7 @@ export const translations = {
     nav: {
       ForHomes: 'Til Boliger',
       ForCompanies: 'Til Virksomheder',
+      aiSolutions: 'AI-løsninger',
       prices: 'Priser',
       whyUs: 'Hvorfor os',
       about: 'Om os',
@@ -377,6 +412,39 @@ export const translations = {
     title: 'Remote-hands support til datacentre',
     subtitle: 'Hav et hurtigt team klar til at opfylde dine datacenterbehov',
     items: ['Rack & Stack-tjenester', 'Installation og nedlukning af udstyr', 'Udskiftning af hardware (RMA)', 'Konsoladgang og teknisk fjernsupport', 'Verificering af optisk effekt og link', 'Smart Hands & nødsupport'],
+        },
+      ],
+    },
+    AISolutions: {
+      badge: 'AI-løsninger',
+      heading: 'Få AI til at arbejde for din virksomhed',
+      subtitle: 'Fra selvstændige AI-agenter til privat og omkostningseffektiv AI – tilpasset dine behov',
+      bottomNote: "Er du i tvivl om, hvor AI passer ind i din virksomhed? Ring til os – så finder vi ud af det sammen.",
+      cards: [
+        {
+          title: 'AI-agenter',
+          subtitle: 'AI der handler – ikke kun svarer',
+          items: ['Agentiske AI-arbejdsgange', 'Automatisering af opgaver i flere trin', 'Agenter forbundet til dine værktøjer og data', 'Agenter til kundeservice og intern support', 'Menneskelig kontrol og godkendelse', 'Overvågning og vedligeholdelse'],
+        },
+        {
+          title: 'AI til udviklere',
+          subtitle: 'AI-værktøjer direkte i din kodeeditor',
+          items: ['AI-kodeassistenter og udvidelser', 'Opsætning til VS Code, JetBrains m.fl.', 'Skræddersyede editor-tilføjelser', 'Sikker udrulning til hele teamet', 'Best practice for kodning med AI', 'Træning af udviklere'],
+        },
+        {
+          title: 'Lokal og privat AI',
+          subtitle: 'Kør sprogmodeller på din egen hardware',
+          items: ['Lokal installation af LLM’er', 'Følsomme data bliver i huset', 'GDPR-venlige AI-løsninger', 'Dimensionering og opsætning af hardware', 'Privat chat og dokumentsøgning', 'AI der kan køre offline'],
+        },
+        {
+          title: 'AI til forretningsoptimering',
+          subtitle: 'Arbejd smartere i hele organisationen',
+          items: ['Vurdering af AI-muligheder', 'Effektivisering af processer med AI', 'Behandling af dokumenter og data', 'Rapportering og indsigt', 'Integration med eksisterende systemer', 'AI-træning af medarbejdere'],
+        },
+        {
+          title: 'Omkostningsoptimering af AI',
+          subtitle: 'Få mere ud af jeres nuværende AI-forbrug',
+          items: ['Gennemgang af eksisterende AI-arkitektur', 'Analyse af token- og API-forbrug', 'Den rette model til hver opgave', 'Caching og effektivisering', 'Sammenligning af cloud og lokal drift', 'Løbende overvågning af omkostninger'],
         },
       ],
     },

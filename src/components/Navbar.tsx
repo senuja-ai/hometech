@@ -58,6 +58,7 @@ export default function Navbar() {
     { label: t.nav.about, href: '#about' },
     { label: t.nav.ForHomes, href: '#For-Homes' },
     { label: t.nav.ForCompanies, href: '#For-Companies' },
+    { label: t.nav.aiSolutions, href: '#AI-Solutions' },
     { label: t.nav.whyUs, href: '#why-us' },
     { label: t.nav.contact, href: '#contact' },
   ];
