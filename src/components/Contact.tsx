@@ -1,5 +1,6 @@
 import { Phone, Mail, MapPin, MessageCircle } from 'lucide-react';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { PREFILL_EVENT } from '../i18n/monitoring';
 import { useLanguage } from '../context/LanguageContext';
 
 const areas = ['Dragør', 'Tårnby', 'Amager', 'København'];
@@ -11,6 +12,18 @@ export default function Contact() {
   const [sent, setSent] = useState(false);
   const [isSending, setIsSending] = useState(false);
   const [error, setError] = useState('');
+
+  // Other sections (e.g. Smart Monitoring) can pre-fill the message with an enquiry template.
+  useEffect(() => {
+    function onPrefill(e: Event) {
+      const text = (e as CustomEvent<string>).detail;
+      if (!text) return;
+      setSent(false);
+      setForm((f) => (f.message.trim() ? f : { ...f, message: text }));
+    }
+    window.addEventListener(PREFILL_EVENT, onPrefill);
+    return () => window.removeEventListener(PREFILL_EVENT, onPrefill);
+  }, []);
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     setForm({ ...form, [e.target.name]: e.target.value });
@@ -256,7 +269,7 @@ export default function Contact() {
                     required
                     value={form.message}
                     onChange={handleChange}
-                    rows={4}
+                    rows={form.message.includes('\n') ? 9 : 4}
                     placeholder={c.form.messagePlaceholder}
                     className="w-full border border-steel-200 rounded-xl px-4 py-2.5 text-steel-900 placeholder-steel-300 text-sm focus:outline-none focus:ring-2 focus:ring-steel-400 focus:border-transparent transition resize-none"
                     disabled={isSending}

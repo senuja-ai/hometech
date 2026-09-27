@@ -6,6 +6,7 @@ export const translations = {
       ForHomes: 'For Homes',
       ForCompanies: 'For Companies',
       aiSolutions: 'AI Solutions',
+      monitoring: 'Smart Monitoring',
       Prices: 'Prices',
       whyUs: 'Why Us',
       about: 'About',
@@ -311,7 +312,7 @@ export const translations = {
     footer: {
       tagline: 'Your personal home IT support.',
       servicesHeading: 'Services',
-      servicesList: ['Computer & Laptop', 'Wi-Fi & Internet', 'Printer & E-mail', 'Phone & TV', 'Remote support'],
+      servicesList: ['Smart monitoring (LoRaWAN)', 'Computer & Laptop', 'Wi-Fi & Internet', 'Printer & E-mail', 'Phone & TV', 'Remote support'],
       contactHeading: 'Contact',
       areaLabel: 'Amager area, Copenhagen',
       copyright: 'All rights reserved.',
@@ -324,6 +325,7 @@ export const translations = {
       ForHomes: 'Til Boliger',
       ForCompanies: 'Til Virksomheder',
       aiSolutions: 'AI-løsninger',
+      monitoring: 'Overvågning',
       prices: 'Priser',
       whyUs: 'Hvorfor os',
       about: 'Om os',
@@ -629,7 +631,7 @@ export const translations = {
     footer: {
       tagline: 'Din personlige IT-hjælp i hjemmet.',
       servicesHeading: 'Tjenester',
-      servicesList: ['Computer & Laptop', 'Wi-Fi & Internet', 'Printer & E-mail', 'Telefon & TV', 'Fjernsupport'],
+      servicesList: ['Smart overvågning (LoRaWAN)', 'Computer & Laptop', 'Wi-Fi & Internet', 'Printer & E-mail', 'Telefon & TV', 'Fjernsupport'],
       contactHeading: 'Kontakt',
       areaLabel: 'Amagerområdet, København',
       copyright: 'Alle rettigheder forbeholdes.',

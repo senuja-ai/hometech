@@ -5,6 +5,7 @@ import About from './components/About';
 import ForHomes from './components/ForHomes';
 import ForCompanies from './components/ForCompanies';
 import AISolutions from './components/AISolutions';
+import SmartMonitoring from './components/SmartMonitoring';
 import Team from './components/Team';
 import WhyUs from './components/WhyUs';
 import Contact from './components/Contact';
@@ -20,8 +21,9 @@ export default function App() {
           <Hero />
           <About />
           <ForHomes />
-          <ForCompanies />
           <AISolutions />
+          <ForCompanies />
+          <SmartMonitoring />
           <Team />
           <WhyUs />
           <Contact />

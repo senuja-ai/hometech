@@ -57,8 +57,9 @@ export default function Navbar() {
   const navLinks = [
     { label: t.nav.about, href: '#about' },
     { label: t.nav.ForHomes, href: '#For-Homes' },
-    { label: t.nav.ForCompanies, href: '#For-Companies' },
     { label: t.nav.aiSolutions, href: '#AI-Solutions' },
+    { label: t.nav.ForCompanies, href: '#For-Companies' },
+    { label: t.nav.monitoring, href: '#smart-monitoring' },
     { label: t.nav.whyUs, href: '#why-us' },
     { label: t.nav.contact, href: '#contact' },
   ];
@@ -82,12 +83,12 @@ export default function Navbar() {
         </a>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex items-center gap-5">
+        <nav className="hidden xl:flex items-center gap-5">
           {navLinks.map((l) => (
             <a
               key={l.href}
               href={l.href}
-              className="text-steel-200 hover:text-white text-sm font-medium transition-colors"
+              className="text-steel-200 hover:text-white text-sm font-medium whitespace-nowrap transition-colors"
             >
               {l.label}
             </a>
@@ -95,14 +96,14 @@ export default function Navbar() {
           <LangToggle />
           <a
             href="tel:71 87 54 94"
-            className="ml-1 bg-mint-500 hover:bg-mint-600 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors"
+            className="ml-1 bg-mint-500 hover:bg-mint-600 text-white text-sm font-semibold px-4 py-2 rounded-lg whitespace-nowrap transition-colors"
           >
             71 87 54 94
           </a>
         </nav>
 
         {/* Mobile: lang toggle + hamburger */}
-        <div className="md:hidden flex items-center gap-3">
+        <div className="xl:hidden flex items-center gap-3">
           <LangToggle />
           <button
             className="text-white p-1"
@@ -116,7 +117,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {open && (
-        <div className="md:hidden bg-steel-900 border-t border-steel-800 px-4 pb-4">
+        <div className="xl:hidden bg-steel-900 border-t border-steel-800 px-4 pb-4">
           {navLinks.map((l) => (
             <a
               key={l.href}
